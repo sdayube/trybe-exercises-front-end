@@ -1,10 +1,9 @@
 import './App.css';
 import React from 'react';
-import Album from './Album'
 
 function App() {
   return (
-    <Album />
+    <h1>Exercises</h1>
   );
 }
 
