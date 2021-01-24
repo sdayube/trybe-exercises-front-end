@@ -1,0 +1,29 @@
+.mdc-poke-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: cyan;
+}
+
+.mdc-poke-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 10px;
+  padding: 0 30px;
+  border: 2px solid darkgreen;
+  border-radius: 15px;
+  background: green;
+  color: white;
+}
+
+.mdc-poke-name {
+  text-transform: uppercase;
+}
+
+.mdc-poke-content {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
