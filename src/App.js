@@ -1,10 +1,11 @@
 import './App.css';
+import pokemons from './exercises/11. React Intro/11.2. React Components/data';
 import React from 'react';
-import Exercise from './exercises/11. React Intro/11.1. Hello World on React/Exercise'
+import Pokedex from './exercises/11. React Intro/11.2. React Components/Pokedex';
 
 function App() {
   return (
-    <Exercise />
+    <Pokedex pokemons={pokemons}/>
   );
 }
 
